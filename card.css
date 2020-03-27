@@ -45,15 +45,18 @@ a{
   text-decoration: none;
 }
 
+/* card styles  */
+
 .card-content {
  margin: 20px;
- 
 }
 
 .card-cta {
   background-color: #ff5e43;
-  padding: 10px 25px;
-
+  padding: 10px 40px;
   color: white;
+}
 
+.card-cta:hover {
+  background-color: #000000;
 }
