@@ -23,8 +23,8 @@ section{
  align-items: center;
 }
 
-
 /*------- layout-small  */
+
 @media screen and (max-width: 485px) {
   
   img[src*="1"]{
