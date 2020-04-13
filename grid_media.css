@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*------ general styles  */
+
+img {
+  margin: 5px;
+}
+
+body {
+  display: flex;
+}
+
+/*------ box styles  */
+
+section{
+ display: flex;
+ flex-wrap: wrap; 
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
+
+
+/*------- layout-small  */
+@media screen and (max-width: 485px) {
+  
+  img[src*="1"]{
+    order: -1;
+  }
+  img[src*="3"]{
+    order: 1;
+  }
+  img[src*="4"]{
+    order: 2;
+  }
+
+}
+
+
+
